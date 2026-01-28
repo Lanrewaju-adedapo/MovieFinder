@@ -52,10 +52,9 @@ export default function HomePage() {
 
         <button
           onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-          className="flex items-center gap-2 rounded-xl px-4 py-2 bg-slate-200 text-slate-900 dark:bg-slate-800 dark:text-slate-100 hover:opacity-80 transition"
+          className="flex items-center gap-2 rounded-full p-3 bg-slate-200 text-slate-900 dark:bg-slate-800 dark:text-slate-100 hover:opacity-80 transition"
         >
           {theme === "dark" ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
-          {theme === "dark" ? "Light" : "Dark"}
         </button>
       </nav>
 
