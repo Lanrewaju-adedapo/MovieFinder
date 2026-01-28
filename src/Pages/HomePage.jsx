@@ -180,7 +180,7 @@ export default function HomePage() {
       <section className="flex flex-col items-center justify-center px-4 md:px-8">
         <div className="w-full max-w-3xl bg-white/70 dark:bg-[#111327]/70 backdrop-blur-xl border border-slate-200 dark:border-white/10 rounded-3xl p-8 md:p-10 shadow-2xl">
           <div className="text-center space-y-3 mb-8">
-            <h2 className="text-3xl md:text-4xl font-extrabold text-slate-900 dark:text-white">
+            <h2 className="text-xl md:text-4xl font-extrabold text-slate-900 dark:text-white">
               Identify a movie instantly
             </h2>
             <p className="text-slate-600 dark:text-slate-400 max-w-xl mx-auto">
