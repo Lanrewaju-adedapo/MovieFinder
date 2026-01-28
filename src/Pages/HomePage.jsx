@@ -44,7 +44,7 @@ export default function HomePage() {
   return (
     <div className="min-h-screen transition-colors duration-300 bg-gradient-to-br from-slate-50 via-white to-violet-50 dark:from-[#0b0b12] dark:via-[#0f1020] dark:to-black text-slate-900 dark:text-slate-100">
       {/* Navbar */}
-      <nav className="flex items-center justify-between px-8 py-6">
+      <nav className="flex items-center justify-between px-4 md:px-8 py-6">
         <div className="flex items-center gap-2 rounded-2xl px-4 py-3 font-bold text-white bg-gradient-to-r from-pink-500 to-fuchsia-600 shadow-xl">
           <Film className="h-5 w-5" />
           MovieFinder
@@ -60,7 +60,7 @@ export default function HomePage() {
       </nav>
 
       {/* Hero */}
-      <main className="grid grid-cols-1 md:grid-cols-2 gap-14 px-8 py-20 items-center">
+      <main className="grid grid-cols-1 md:grid-cols-2 gap-14 px-4 md:px-8 py-20 items-center">
         <div className="space-y-8">
           <h1 className="text-5xl md:text-6xl font-extrabold leading-tight">
             Discover Any Movie
@@ -119,7 +119,7 @@ export default function HomePage() {
             </AnimatePresence>
 
             {/* Controls */}
-            <div className="flex items-center justify-between pt-8">
+            <div className="flex items-center justify-center gap-4 pt-8">
               <button
                 onClick={() => setCurrentStep((s) => Math.max(0, s - 1))}
                 disabled={currentStep === 0}
