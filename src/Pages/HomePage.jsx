@@ -183,7 +183,7 @@ export default function HomePage() {
             <h2 className="text-xl md:text-4xl font-extrabold text-slate-900 dark:text-white">
               Identify a movie instantly
             </h2>
-            <p className="text-slate-600 dark:text-slate-400 max-w-xl mx-auto">
+            <p className="text-slate-600 text-sm md:text-base dark:text-slate-400 max-w-xl mx-auto">
               Paste a link from TikTok, Instagram Reels, or YouTube Shorts —
               we’ll analyze the clip and find the movie.
             </p>
