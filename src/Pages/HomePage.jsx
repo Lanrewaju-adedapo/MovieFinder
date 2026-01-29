@@ -404,7 +404,7 @@ export default function HomePage() {
         </div>
       </section>
       <footer className="text-white py-4 mt-8 flex flex-col gap-2">
-        <div className="container mx-auto flex flex-col md:flex-row justify-center items-center gap-2 md:gap-4 text-sm md:text-base">
+        <div className="container mx-auto flex md:flex-row justify-center items-center gap-2 md:gap-4 text-sm md:text-base">
           <span>Made with</span>
           <Heart className="w-5 h-5 text-red-500 animate-pulse" />
           <span>by Group F</span>
