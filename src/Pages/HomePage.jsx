@@ -17,7 +17,7 @@ import DarkKnight from "../Images/dark_knight.jpg";
 import inception from "../Images/inception.jpg";
 import barbie from "../Images/barbie.jpg";
 import oppenheimer from "../Images/oppenheimer.jpg";
-import Interstellar from "../Images/Interstellar.jpg";
+import Interstellar from "../Images/interstellar.jpg";
 import Loader from "../Components/Loader";
 
 const steps = [
