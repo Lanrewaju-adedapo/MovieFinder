@@ -1,12 +1,21 @@
-import React from "react";
-import HomePage from "./Pages/HomePage";
+import HomePage from "./Pages/HomePage"
+import FindMovie from "./Pages/FineMovie"
+import { Route, createBrowserRouter, createRoutesFromElements, RouterProvider } from "react-router-dom"
 
-const App = () => {
-  return  (
+const router = createBrowserRouter(
+  createRoutesFromElements(
     <>
-      <HomePage />
+        <Route path="/" element={<HomePage/>} />
+        <Route path="/find-movie" element={<FindMovie/>} />
     </>
   )
-};
+)
 
-export default App;
+function App() {
+
+  return (
+    <RouterProvider router={router} />
+  )
+}
+
+export default App
